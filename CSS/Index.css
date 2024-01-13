@@ -1,0 +1,32 @@
+div.gallery {
+    margin: 3px;
+    float: left;
+    width: 32%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.striker {
+    margin: 3px;
+    float: left;
+    width: 80%;
+}
+
+div.striker img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
