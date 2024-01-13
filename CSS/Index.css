@@ -40,10 +40,27 @@ div.striker img {
 div.desc {
     padding: 5px;
     text-align: center;
+    font-weight: bold;
 }
 
 section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+.light {
+    color: #AE76FF;
+}
+
+.normal {
+    color: #79639E;
+}
+
+.normalLight {
+    color: #79639E;
+}
+
+.dark {
+    color: #422173;
 }
