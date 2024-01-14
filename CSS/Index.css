@@ -94,7 +94,9 @@ div.desc {
     padding-left: 4px;
     padding-right: 4px;
     margin-left: 10%;
-    margin-right: 70%
+    width: 20%;
+    display: inline-block;
+    text-align: center;
 }
 
 #banner {
@@ -106,4 +108,10 @@ div.desc {
     margin: 0 auto;
     padding: 0;
     border: 0;
+}
+
+#twitter {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
