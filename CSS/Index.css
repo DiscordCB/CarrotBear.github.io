@@ -42,8 +42,6 @@ div.desc {
     padding: 5px;
     text-align: center;
     font-weight: bold;
-    margin-right: 33%;
-    margin-left: 33%;
 }
 
 .flex-container-row {
@@ -58,21 +56,6 @@ div.desc {
     justify-content: center;
 }
 
-.light {
-    color: #A588D9;
-    background-color: #0E111680;
-}
-
-.normal {
-    color: #79639E;
-    background-color: #22305780;
-}
-
-.dark {
-    color: #15121C;
-    background-color: #53b4d280;
-}
-
 .center {
     margin-left: auto;
     margin-right: auto;
@@ -83,6 +66,23 @@ div.desc {
 }
 
 .rounded {
+    background-color: #add8e680;
+    border-style: hidden;
+    border-radius: 20px;
+}
+
+.descnormal {
+    margin-right: 33%;
+    margin-left: 33%;
+}
+
+.descsmaller {
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
+.descrounded {
+    background-color: #add8e680;
     border-style: hidden;
     border-radius: 20px;
 }
@@ -95,4 +95,15 @@ div.desc {
     padding-right: 4px;
     margin-left: 10%;
     margin-right: 70%
+}
+
+#banner {
+    background-image: url("Images/MurphyBanner_resized.png"), linear-gradient(#53B5D2, #223057, #0E1116);
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
 }
