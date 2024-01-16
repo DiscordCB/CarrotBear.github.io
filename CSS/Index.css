@@ -27,13 +27,13 @@ div.gallery img {
     height: auto;
 }
 
-div.striker {
+div.loady {
     margin: 3px;
     float: left;
     width: 80%;
 }
 
-div.striker img {
+div.loady img {
     width: 100%;
     height: auto;
 }
@@ -71,12 +71,17 @@ div.desc {
     border-radius: 20px;
 }
 
-.descnormal {
+.big {
     margin-right: 33%;
     margin-left: 33%;
 }
 
-.descsmaller {
+.mid {
+    margin-right: 43%;
+    margin-left: 43%;
+}
+
+.small {
     margin-right: 45%;
     margin-left: 45%;
 }
@@ -115,3 +120,4 @@ div.desc {
     bottom: 0;
     right: 0;
 }
+
