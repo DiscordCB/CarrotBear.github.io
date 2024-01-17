@@ -16,6 +16,11 @@ nav {
     text-align: center;
 }
 
+p.weaponDesc {
+    font-weight: bold;
+    font-size: larger;
+}
+
 div.gallery {
     margin: 3px;
     float: left;
@@ -67,13 +72,19 @@ div.desc {
 
 .rounded {
     background-color: #add8e680;
-    border-style: hidden;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 20px;
 }
 
 .big {
     margin-right: 33%;
     margin-left: 33%;
+}
+
+.mediumBig {
+    margin-right: 38%;
+    margin-left: 38%;
 }
 
 .mid {
@@ -92,9 +103,22 @@ div.desc {
     border-radius: 20px;
 }
 
+.weaponDesc {
+    background-color: #add8e680;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 10%;
+    width: 20%;
+    text-align: center;
+}
+
 #intro {
     background-color: #add8e680;
-    border-style: hidden;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 5px;
     padding-left: 4px;
     padding-right: 4px;
@@ -121,3 +145,10 @@ div.desc {
     right: 0;
 }
 
+#Wednesday {
+    width: 160px;
+    text-align: center;
+    margin-left: 80%;
+    transform: rotate(-35deg);
+    color: rgb(197, 44, 85);
+}
