@@ -2,7 +2,8 @@
     font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
 }
 
-h1, h3 {
+h1,
+h3 {
     text-align: center;
     margin-left: 40%;
     margin-right: 40%;
@@ -55,10 +56,32 @@ div.desc {
     justify-content: center;
 }
 
+.flex-container-row iframe {
+    border: none;
+    padding: 2px;
+}
+
 .flex-container-reverse {
     display: flex;
     flex-flow: row-reverse wrap;
     justify-content: center;
+}
+
+.flex-container-reverse iframe {
+    border: none;
+    padding: 2px;
+}
+
+.float-container {
+    display: flex;
+}
+
+.float-child {
+    border: none;
+}
+
+.float-child:first-child {
+    margin-right:20px;
 }
 
 .center {
@@ -68,6 +91,19 @@ div.desc {
 
 .left10 {
     margin-left: 10%;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    border: none;
+    display: block;
+    margin: 0 auto;
 }
 
 .rounded {
@@ -113,6 +149,10 @@ div.desc {
     margin-left: 10%;
     width: 20%;
     text-align: center;
+}
+
+.rotateMin {
+    transform: rotate(-35deg);
 }
 
 #intro {
