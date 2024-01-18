@@ -135,7 +135,8 @@ div.desc {
 
 .descrounded {
     background-color: #add8e680;
-    border-style: hidden;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 20px;
 }
 
