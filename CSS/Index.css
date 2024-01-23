@@ -95,7 +95,7 @@ div.desc {
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 25%;
     /* 16:9 */
     height: 0;
 }
