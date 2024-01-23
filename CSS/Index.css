@@ -156,6 +156,36 @@ div.desc {
     transform: rotate(-35deg);
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #0E1116;
+    overflow: hidden;
+    width: 302px;
+    float: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #add8e680;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #223057;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #add8e680;
+    color: black;
+  }
+
 #intro {
     background-color: #add8e680;
     border-style: solid;
