@@ -222,3 +222,14 @@ div.desc {
     transform: rotate(-35deg);
     color: rgb(197, 44, 85);
 }
+
+#faq {
+    width: 45%;
+    text-align: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border:#0E1116;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 25%;
+}
