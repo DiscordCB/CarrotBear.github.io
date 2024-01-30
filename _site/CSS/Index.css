@@ -1,0 +1,235 @@
+* {
+    font-family: "Calisto MT", "Bookman Old Style", "Bookman", "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Arial, Helvetica, sans-serif;
+}
+
+h1,
+h3 {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+body {
+    background-image: linear-gradient(#53B5D2, #223057, #0E1116);
+}
+
+nav {
+    text-align: center;
+}
+
+p.weaponDesc {
+    font-weight: bold;
+    font-size: larger;
+}
+
+div.gallery {
+    margin: 3px;
+    float: left;
+    width: 32%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.loady {
+    margin: 3px;
+    float: left;
+    width: 80%;
+}
+
+div.loady img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flex-container-row iframe {
+    border: none;
+    padding: 2px;
+}
+
+.flex-container-reverse {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+}
+
+.flex-container-reverse iframe {
+    border: none;
+    padding: 2px;
+}
+
+.float-container {
+    display: flex;
+}
+
+.float-child {
+    border: none;
+}
+
+.float-child:first-child {
+    margin-right:20px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left10 {
+    margin-left: 10%;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.rounded {
+    background-color: #add8e680;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.big {
+    margin-right: 33%;
+    margin-left: 33%;
+}
+
+.mediumBig {
+    margin-right: 38%;
+    margin-left: 38%;
+}
+
+.mid {
+    margin-right: 43%;
+    margin-left: 43%;
+}
+
+.small {
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
+.descrounded {
+    background-color: #add8e680;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.weaponDesc {
+    background-color: #add8e680;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 10%;
+    width: 20%;
+    text-align: center;
+}
+
+.rotateMin {
+    transform: rotate(-35deg);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #0E1116;
+    overflow: hidden;
+    float: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #add8e680;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #223057;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #add8e680;
+    color: black;
+  }
+
+#intro {
+    background-color: #add8e680;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 10%;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+#banner {
+    background-image: url("Images/MurphyBanner_resized.png"), linear-gradient(#53B5D2, #223057, #0E1116);
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+#twitter {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#Wednesday {
+    width: 160px;
+    text-align: center;
+    margin-left: 80%;
+    transform: rotate(-35deg);
+    color: rgb(197, 44, 85);
+}
+
+#faq {
+    width: 45%;
+    text-align: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border:#0E1116;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 25%;
+}
