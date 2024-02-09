@@ -185,6 +185,10 @@ div.desc {
     color: black;
   }
 
+ .topnav li {
+    display: inline;
+  }
+
 #intro {
     background-color: #add8e680;
     border-style: solid;
